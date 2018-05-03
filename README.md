@@ -1,10 +1,10 @@
 ディレクトリ構成  
 
-    |- application
+    |- azuretest
         |- server.py              # サーバの起動スクリプト
         |- config/                # 設定ファイル
             |- __init__.py
-        |- app/
+        |- azure_test/
             |- __init__.py
             |- models/
             |- views/
@@ -14,7 +14,7 @@
             |- templates/
             |- models/
             |- views/
-        |- venv/                   # pyvenv 環境 gitignore しましょう
+        |- venv/                   
             |- lib/
             |- bin/
             |- include/
